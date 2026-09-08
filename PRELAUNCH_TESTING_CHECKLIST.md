@@ -26,7 +26,7 @@
 
 - [ ] Review at 320 px, 375 px, 768 px, 1024 px, 1440 px, and a large desktop width.
 - [ ] Confirm the hero photo crop keeps the clinic environment legible on phone, tablet, and desktop.
-- [ ] Confirm the Noto Serif Display hero and DM Sans body text display correctly, including the ʻokina.
+- [ ] Confirm the Black Diamond “Kauaʻi Drip” hero wordmark, Noto Serif Display headings, and DM Sans body text display correctly, including the ʻokina.
 - [ ] Confirm no photo is unintentionally repeated.
 - [ ] Check text contrast, focus outlines, and hover states against their backgrounds.
 - [ ] Confirm the four highlight cards, expanded service grid, FAQ accordions, event section, and three process cards remain balanced at every breakpoint.

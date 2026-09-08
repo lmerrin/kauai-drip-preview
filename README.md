@@ -21,6 +21,7 @@ dist/
 ├── _headers
 └── assets/
     ├── css/styles.css
+    ├── fonts/black-diamond-subset.otf
     ├── images/
     └── js/script.js
 ```
@@ -73,4 +74,4 @@ Optimize new photography as WebP and use descriptive filenames and alt text.
 
 Google Maps and Jane are third-party services. The site tells visitors not to send medical or sensitive information by ordinary email or text. If the map embed is not approved, remove the iframe and keep the directions link.
 
-The design uses Noto Serif Display and DM Sans through Google Fonts. Confirm continued use of this external font service or self-host approved font files before launch. Confirm ownership and publication permission for the logo and photographs.
+The design uses Noto Serif Display and DM Sans through Google Fonts. The supplied Black Diamond webfont is reserved for the “Kauaʻi Drip” hero wordmark so it matches the client’s existing script identity; the full supplied logo appears at the far right of the navigation and in the footer. Confirm all font rights, continued use of the external Google font service, and publication permission for the logo and photographs before launch.
