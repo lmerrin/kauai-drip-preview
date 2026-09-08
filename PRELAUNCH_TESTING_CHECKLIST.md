@@ -17,6 +17,8 @@
 ## Links and booking
 
 - [ ] Every navigation link reaches the correct section by mouse and keyboard.
+- [ ] Every Services category shortcut reaches its corresponding section and is not hidden behind the sticky category bar.
+- [ ] Every service education panel opens and closes with mouse, Enter, and Space.
 - [ ] Every Jane link opens the correct appointment category in a new tab.
 - [ ] Gift-card and package-purchase links open the correct Jane screens.
 - [ ] Phone links call `+1 808-470-7970` on supported devices.
@@ -33,7 +35,7 @@
 - [ ] Confirm the Black Diamond “Kauaʻi Drip” hero wordmark, Noto Serif Display headings, and DM Sans body text display correctly, including the ʻokina.
 - [ ] Confirm no photo is unintentionally repeated.
 - [ ] Check text contrast, focus outlines, and hover states against their backgrounds.
-- [ ] Confirm the four highlight cards, expanded service grid, FAQ accordions, event section, and three process cards remain balanced at every breakpoint.
+- [ ] Confirm the four highlight cards, ten-card editorial service grid, FAQ accordions, event section, and three process cards remain balanced at every breakpoint.
 
 ## Accessibility and interaction
 

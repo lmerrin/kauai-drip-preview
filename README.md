@@ -2,10 +2,12 @@
 
 This is a static, deployment-ready preview for Kauaʻi Drip. It uses semantic HTML, organized CSS, and minimal JavaScript. Appointments and private intake are routed to Jane. No forms, analytics, advertising trackers, cookies, passwords, API keys, or patient information are included. Subtle entrance and scroll effects respect reduced-motion preferences, and a persistent booking action appears on smaller screens.
 
+The homepage provides short, plain-language introductions to ten areas of care. The Services page provides the detailed descriptions, published pricing, category jump navigation, native expandable education panels, and a separate mobile-visit section. The About page organizes Ashley’s background into credentials, origin story, experience, and current approach.
+
 ## Folder structure
 
 ```text
-dist/
+kauai-drip-preview/
 ├── index.html
 ├── services.html
 ├── about.html
@@ -31,14 +33,14 @@ Also review `CLIENT_APPROVAL_NEEDED.md` and `PRELAUNCH_TESTING_CHECKLIST.md`.
 ## Preview locally
 
 ```bash
-python3 -m http.server 8080 --directory dist
+python3 -m http.server 8080
 ```
 
 Open `http://localhost:8080/`.
 
 ## GitHub Pages preview
 
-For the simplest client preview, upload the **contents inside `dist`** to the repository root. `index.html`, `404.html`, `_headers`, `robots.txt`, `sitemap.xml`, and `assets` should appear directly on the repository’s main page.
+Upload this package directly to the repository root. `index.html`, `404.html`, `_headers`, `robots.txt`, `sitemap.xml`, and `assets` must appear directly on the repository’s main page. Do not create or upload a second `dist` copy.
 
 In **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, and save. The preview will be at `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/`.
 
@@ -48,7 +50,7 @@ The canonical metadata intentionally uses the final `https://www.kauaidrip.com/`
 
 1. Complete the approval list and prelaunch checklist.
 2. Connect this repository to Cloudflare Pages or use Direct Upload.
-3. With this project structure, use no build command and set output directory to `dist`.
+3. With this project structure, use no build command and set the output directory to `.` (the repository root).
 4. Add the root and `www` domains, choose one preferred hostname, and redirect the other.
 5. Preserve MX, SPF, DKIM, and DMARC records before changing DNS.
 6. Back up Squarespace and DNS before cutover.
@@ -57,19 +59,16 @@ The canonical metadata intentionally uses the final `https://www.kauaidrip.com/`
 
 ## Updating content
 
-- Homepage wording and links: `dist/index.html`
-- Service directory: `dist/services.html`
-- Ashley's story: `dist/about.html`
-- Questions and answers: `dist/faq.html`
-- Directions, contact and group services: `dist/visit.html`
-- Draft policies: `dist/privacy.html`, `dist/hipaa.html`, `dist/terms.html`, and `dist/medical-disclaimer.html`
-- Design: `dist/assets/css/styles.css`
-- Mobile navigation: `dist/assets/js/script.js`
-- Motion, sticky-header behavior, and the mobile booking action: `dist/assets/css/styles.css` and `dist/assets/js/script.js`
-- Service descriptions, public pricing, mobile travel fees, and Jane category links: `dist/services.html`
-- The Current Specials destination is maintained in `dist/services.html`, `dist/index.html`, `dist/visit.html`, and as a shared-navigation fallback in `dist/assets/js/script.js`.
-- SEO files: `dist/robots.txt` and `dist/sitemap.xml`
-- Cloudflare security headers: `dist/_headers`
+- Homepage wording and links: `index.html`
+- Service directory: `services.html`
+- Ashley's story: `about.html`
+- Questions and answers: `faq.html`
+- Directions, contact and group services: `visit.html`
+- Draft policies: `privacy.html`, `hipaa.html`, `terms.html`, and `medical-disclaimer.html`
+- Design: `assets/css/styles.css`
+- Mobile navigation, shared specials link and booking action: `assets/js/script.js`
+- SEO files: `robots.txt` and `sitemap.xml`
+- Cloudflare security headers: `_headers`
 
 Optimize new photography as WebP and use descriptive filenames and alt text.
 
@@ -79,4 +78,4 @@ The homepage currently includes three neutral, generated editorial photographs f
 
 Google Maps and Jane are third-party services. The site tells visitors not to send medical or sensitive information by ordinary email or text. If the map embed is not approved, remove the iframe and keep the directions link.
 
-The design uses Noto Serif Display and DM Sans through Google Fonts. The supplied Black Diamond webfont is reserved for the “Kauaʻi Drip” hero wordmark so it matches the client’s existing script identity; the full supplied logo appears at the far right of the navigation and in the footer. Confirm all font rights, continued use of the external Google font service, and publication permission for the logo and photographs before launch.
+The design uses Noto Serif Display and DM Sans through Google Fonts. The supplied Black Diamond webfont is reserved for the “Kauaʻi Drip” hero wordmark so it matches the client’s existing script identity; the full supplied logo appears at the left of the navigation and in the footer. Confirm all font rights, continued use of the external Google font service, and publication permission for the logo and photographs before launch.

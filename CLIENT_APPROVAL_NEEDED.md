@@ -25,20 +25,21 @@ The preview uses the information Ashley has already provided. The following item
 12. Correct or confirm the T-Shape 2 Kick-Start package, submitted as both the regular and special price of $799.
 13. Provide dates, eligibility, availability, and terms for every special.
 14. Review and approve the published island-wide mobile IV travel-fee areas and prices.
+15. Review the new educational service descriptions, including hormone optimization, peptide therapy, T-Shape 2, InBody scanning, infrared sauna, IV therapy, and aesthetics, for clinical accuracy and preferred wording.
 
 ## Reviews, optional features and policies
 
-15. Approve the three published draft excerpts and attribution (Dina C., Cynthia A., and Bridget P.). The Athletic Performance testimonial remains unpublished pending source and permission confirmation.
-16. Confirm the shop and selling platform, password-protected page and purpose, and whether a blog will be maintained.
-17. Confirm whether to embed an Instagram feed or simply link to Instagram.
-18. Review the included Website Privacy Policy, redesigned HIPAA Notice, Terms of Use, and Medical Disclaimer drafts with appropriate legal/compliance advisers. Confirm effective dates, Privacy Officer information, cancellation/refund terms, vendors, and final wording.
-19. Confirm the Google Maps embed. No general contact form is included because medical or sensitive information should go through Jane.
+16. Approve the three published draft excerpts and attribution (Dina C., Cynthia A., and Bridget P.). The Athletic Performance testimonial remains unpublished pending source and permission confirmation.
+17. Confirm the shop and selling platform, password-protected page and purpose, and whether a blog will be maintained.
+18. Confirm whether to embed an Instagram feed or simply link to Instagram.
+19. Review the included Website Privacy Policy, redesigned HIPAA Notice, Terms of Use, and Medical Disclaimer drafts with appropriate legal/compliance advisers. Confirm effective dates, Privacy Officer information, cancellation/refund terms, vendors, and final wording.
+20. Confirm the Google Maps embed. No general contact form is included because medical or sensitive information should go through Jane.
 
 ## Domain, launch and trade agreement
 
-20. Invite Webby Wahine to Namecheap as a collaborator and confirm whether `www.kauaidrip.com` or `kauaidrip.com` will be preferred.
-21. Preserve all email records, back up Squarespace and DNS, and approve the Cloudflare cutover window.
-22. Confirm whether analytics are wanted. The preview is tracker-free.
-23. Document the website’s normal value, microneedling credit (standard or PRP, quantity and value), any cash difference, redemption timing, scope, revision rounds, and ongoing maintenance separately.
+21. Invite Webby Wahine to Namecheap as a collaborator and confirm whether `www.kauaidrip.com` or `kauaidrip.com` will be preferred.
+22. Preserve all email records, back up Squarespace and DNS, and approve the Cloudflare cutover window.
+23. Confirm whether analytics are wanted. The preview is tracker-free.
+24. Document the website’s normal value, microneedling credit (standard or PRP, quantity and value), any cash difference, redemption timing, scope, revision rounds, and ongoing maintenance separately.
 
 Service pricing and mobile travel fees from Ashley’s intake are included for review. Promotional prices remain linked to Jane rather than reproduced on the static website until their dates and terms are confirmed. Membership terms, the unverified Athletic Performance testimonial, shop, blog, password access, and a standard contact form are not published in this preview.
