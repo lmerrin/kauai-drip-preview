@@ -12,6 +12,7 @@ The preview uses the information Ashley has already provided. The following item
 
 4. Confirm which team members should appear and provide approved names, credentials, titles, biographies, and photographs.
 5. Provide or approve new clinic, provider, consultation, and treatment photographs. The preview temporarily uses images from the current website and Jane.
+   - Three neutral editorial supporting images (`body-composition.webp`, `wellness-vials.webp`, and `peptide-wellness.webp`) were created specifically for the preview. They do not depict Ashley, a patient, a treatment procedure, or the Kauaʻi Drip clinic. Replace or approve them before launch.
 6. Confirm whether Normatec, RollShape, and acute-care telehealth are still offered and should be promoted.
 7. Confirm which services are offered for private events, retreats, weddings, groups, and corporate wellness programs.
 8. Confirm group-service logistics: onsite/offsite availability, group-size limits, lead time, travel fees, deposits, and preferred inquiry method.

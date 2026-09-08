@@ -5,6 +5,7 @@
 - [ ] Ashley has approved the hero wording, service descriptions, biography, address, final hours, and mobile-visit language.
 - [ ] Ashley has approved the three Google-review excerpts, abbreviated attribution, and republication permission.
 - [ ] Ashley has approved all photography and confirmed permission to use it online.
+- [ ] Ashley has approved or replaced the three neutral generated service-card images; none are described as clinic, inventory, or treatment documentation.
 - [ ] Logo and font web-use rights are confirmed.
 - [ ] Current clinic policies and legally reviewed HIPAA/privacy content will remain available after the domain cutover.
 - [ ] The four draft policy pages have received appropriate legal/compliance review and approved effective dates.

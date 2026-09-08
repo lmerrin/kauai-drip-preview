@@ -71,6 +71,8 @@ The canonical metadata intentionally uses the final `https://www.kauaidrip.com/`
 
 Optimize new photography as WebP and use descriptive filenames and alt text.
 
+The homepage currently includes three neutral, generated editorial photographs for body composition, wellness injections, and peptide therapy. They are intentionally styled as generic still lifes and must not be represented as photographs of the clinic, its inventory, or actual treatment products. Replace or approve them before public launch.
+
 ## Privacy and assets
 
 Google Maps and Jane are third-party services. The site tells visitors not to send medical or sensitive information by ordinary email or text. If the map embed is not approved, remove the iframe and keep the directions link.
