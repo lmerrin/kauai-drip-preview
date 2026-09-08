@@ -245,6 +245,8 @@ address { font-style: normal; }
 .footer-grid > div:not(:first-child) { display: flex; flex-direction: column; gap: .55rem; }
 .footer-grid a { font-size: .88rem; text-decoration: none; }
 .footer-bottom { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-top: 1.5rem; margin-top: 2.5rem; border-top: 1px solid rgba(255,255,255,.13); font-size: .78rem; }
+.designer-credit { padding-top: 1rem; margin-top: 1.5rem; border-top: 1px solid rgba(255,255,255,.1); color: rgba(255,255,255,.58); font-size: .76rem; text-align: right; }
+.designer-credit a { color: var(--white); font-weight: 600; text-underline-offset: .2em; }
 .error-page { display: grid; min-height: 100svh; place-items: center; color: var(--white); background: var(--slate-deep); }
 .error-shell { width: min(650px,calc(100% - 2rem)); padding: 4rem 0; text-align: center; }
 .error-shell > img { width: 9rem; height: auto; margin: 0 auto 2rem; filter: brightness(0) invert(1); }
@@ -252,6 +254,7 @@ address { font-style: normal; }
 .error-shell h1 { margin: 1.5rem 0 1rem; font-size: clamp(2.5rem,6vw,4.5rem); }
 .error-shell > p:not(.error-code) { max-width: 520px; margin: 0 auto 2rem; color: rgba(255,255,255,.76); }
 .error-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; }
+.error-page .designer-credit { width: auto; padding-top: 0; margin-top: 2rem; border-top: 0; text-align: center; }
 
 /* Refined motion and mobile conversion */
 .hero-brand, .hero-content h1, .hero-summary, .hero-actions { animation: hero-enter 680ms both cubic-bezier(.2,.7,.2,1); }

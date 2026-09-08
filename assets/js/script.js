@@ -64,3 +64,11 @@ if (!document.querySelector('.mobile-booking-bar') && !document.querySelector('.
   mobileBookingBar.innerHTML = '<a href="https://kauaidrip.janeapp.com/" target="_blank" rel="noopener noreferrer">Book an appointment</a>';
   document.body.appendChild(mobileBookingBar);
 }
+
+const siteFooter = document.querySelector('.site-footer');
+if (siteFooter && !siteFooter.querySelector('.designer-credit')) {
+  const designerCredit = document.createElement('div');
+  designerCredit.className = 'section-shell designer-credit';
+  designerCredit.innerHTML = 'Designed by <a href="https://www.webbywahine.com/" target="_blank" rel="noopener noreferrer">Webby Wahine</a>';
+  siteFooter.appendChild(designerCredit);
+}
