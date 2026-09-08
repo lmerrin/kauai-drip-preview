@@ -1,6 +1,17 @@
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('[data-menu]');
 
+if (navigation && !navigation.querySelector('.nav-special')) {
+  const bookingButton = navigation.querySelector('.button');
+  const specialsLink = document.createElement('a');
+  specialsLink.className = 'nav-special';
+  specialsLink.href = 'https://kauaidrip.janeapp.com/#/current-specials';
+  specialsLink.target = '_blank';
+  specialsLink.rel = 'noopener noreferrer';
+  specialsLink.textContent = 'Current specials';
+  navigation.insertBefore(specialsLink, bookingButton);
+}
+
 if (menuButton && navigation) {
   const closeMenu = () => {
     menuButton.setAttribute('aria-expanded', 'false');
