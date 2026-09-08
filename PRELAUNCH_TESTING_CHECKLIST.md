@@ -3,6 +3,9 @@
 ## Client and content approval
 
 - [ ] Ashley has approved the hero wording, service descriptions, biography, address, final hours, and mobile-visit language.
+- [ ] Compare every published service price and mobile travel fee with the live Jane menu immediately before launch.
+- [ ] Confirm the Current Specials link opens Jane’s current-specials category on desktop and mobile.
+- [ ] Confirm IV and HRT membership inclusions, billing frequency, cancellation terms, and eligibility before launch.
 - [ ] Ashley has approved the three Google-review excerpts, abbreviated attribution, and republication permission.
 - [ ] Ashley has approved all photography and confirmed permission to use it online.
 - [ ] Ashley has approved or replaced the three neutral generated service-card images; none are described as clinic, inventory, or treatment documentation.

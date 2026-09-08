@@ -66,6 +66,8 @@ The canonical metadata intentionally uses the final `https://www.kauaidrip.com/`
 - Design: `dist/assets/css/styles.css`
 - Mobile navigation: `dist/assets/js/script.js`
 - Motion, sticky-header behavior, and the mobile booking action: `dist/assets/css/styles.css` and `dist/assets/js/script.js`
+- Service descriptions, public pricing, mobile travel fees, and Jane category links: `dist/services.html`
+- The Current Specials destination is maintained in `dist/services.html`, `dist/index.html`, `dist/visit.html`, and as a shared-navigation fallback in `dist/assets/js/script.js`.
 - SEO files: `dist/robots.txt` and `dist/sitemap.xml`
 - Cloudflare security headers: `dist/_headers`
 

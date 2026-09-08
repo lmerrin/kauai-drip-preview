@@ -24,7 +24,7 @@ The preview uses the information Ashley has already provided. The following item
 11. Confirm what the weight-management program includes and which medications, labs, and follow-ups are separate.
 12. Correct or confirm the T-Shape 2 Kick-Start package, submitted as both the regular and special price of $799.
 13. Provide dates, eligibility, availability, and terms for every special.
-14. Confirm the submitted island-wide mobile IV fees.
+14. Review and approve the published island-wide mobile IV travel-fee areas and prices.
 
 ## Reviews, optional features and policies
 
@@ -41,4 +41,4 @@ The preview uses the information Ashley has already provided. The following item
 22. Confirm whether analytics are wanted. The preview is tracker-free.
 23. Document the website’s normal value, microneedling credit (standard or PRP, quantity and value), any cash difference, redemption timing, scope, revision rounds, and ongoing maintenance separately.
 
-Pricing, memberships, specials, the unverified Athletic Performance testimonial, shop, blog, password access, and a standard contact form are not published in this preview.
+Service pricing and mobile travel fees from Ashley’s intake are included for review. Promotional prices remain linked to Jane rather than reproduced on the static website until their dates and terms are confirmed. Membership terms, the unverified Athletic Performance testimonial, shop, blog, password access, and a standard contact form are not published in this preview.
