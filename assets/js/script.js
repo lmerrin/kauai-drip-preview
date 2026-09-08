@@ -67,8 +67,17 @@ if (!document.querySelector('.mobile-booking-bar') && !document.querySelector('.
 
 const siteFooter = document.querySelector('.site-footer');
 if (siteFooter && !siteFooter.querySelector('.designer-credit')) {
-  const designerCredit = document.createElement('div');
-  designerCredit.className = 'section-shell designer-credit';
+  const designerCredit = document.createElement('span');
+  designerCredit.className = 'designer-credit';
   designerCredit.innerHTML = 'Designed by <a href="https://www.webbywahine.com/" target="_blank" rel="noopener noreferrer">Webby Wahine</a>';
-  siteFooter.appendChild(designerCredit);
+  const footerBottom = siteFooter.querySelector('.footer-bottom');
+
+  if (footerBottom && footerBottom.querySelector('[data-year]')) {
+    footerBottom.appendChild(designerCredit);
+  } else {
+    const footerMeta = document.createElement('div');
+    footerMeta.className = 'section-shell footer-meta';
+    footerMeta.appendChild(designerCredit);
+    siteFooter.appendChild(footerMeta);
+  }
 }
