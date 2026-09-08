@@ -8,7 +8,7 @@
 - [ ] Confirm IV and HRT membership inclusions, billing frequency, cancellation terms, and eligibility before launch.
 - [ ] Ashley has approved the three Google-review excerpts, abbreviated attribution, and republication permission.
 - [ ] Ashley has approved all photography and confirmed permission to use it online.
-- [ ] Ashley has approved or replaced the three neutral generated service-card images; none are described as clinic, inventory, or treatment documentation.
+- [ ] Ashley has approved or replaced all neutral generated service-card images; none are described as clinic, inventory, medication, equipment, or treatment documentation.
 - [ ] Logo and font web-use rights are confirmed.
 - [ ] Current clinic policies and legally reviewed HIPAA/privacy content will remain available after the domain cutover.
 - [ ] The four draft policy pages have received appropriate legal/compliance review and approved effective dates.
@@ -36,6 +36,9 @@
 - [ ] Confirm no photo is unintentionally repeated.
 - [ ] Check text contrast, focus outlines, and hover states against their backgrounds.
 - [ ] Confirm the four highlight cards, ten-card editorial service grid, FAQ accordions, event section, and three process cards remain balanced at every breakpoint.
+- [ ] Confirm the corrected T-Shape 2 photo orientation and crop display properly at every breakpoint.
+- [ ] Confirm the gift-card and package feature remains visible and readable on the homepage and Services page.
+- [ ] Confirm the three-step arrival directions match the building and remain easy to scan on mobile.
 
 ## Accessibility and interaction
 

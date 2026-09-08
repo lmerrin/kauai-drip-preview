@@ -72,7 +72,7 @@ The canonical metadata intentionally uses the final `https://www.kauaidrip.com/`
 
 Optimize new photography as WebP and use descriptive filenames and alt text.
 
-The homepage currently includes three neutral, generated editorial photographs for body composition, wellness injections, and peptide therapy. They are intentionally styled as generic still lifes and must not be represented as photographs of the clinic, its inventory, or actual treatment products. Replace or approve them before public launch.
+The homepage includes neutral generated editorial photographs for medical weight management, wellness injections, peptide-care planning, and body-composition assessment. The two newest images contain no people and are intentionally unbranded. None should be represented as photographs of the clinic, its inventory, or Ashley’s actual equipment. Replace or approve them before public launch.
 
 ## Privacy and assets
 
