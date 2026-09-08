@@ -33,3 +33,34 @@ if (menuButton && navigation) {
 document.querySelectorAll('[data-year]').forEach((year) => {
   year.textContent = String(new Date().getFullYear());
 });
+
+const header = document.querySelector('.site-header');
+if (header) {
+  const updateHeader = () => header.classList.toggle('is-scrolled', window.scrollY > 16);
+  updateHeader();
+  window.addEventListener('scroll', updateHeader, { passive: true });
+}
+
+const motionIsReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const revealItems = document.querySelectorAll(
+  '.section > .section-shell, .care-guide-grid, .service-photo-strip, .directory-card, .testimonial-card'
+);
+
+if (!motionIsReduced && 'IntersectionObserver' in window) {
+  revealItems.forEach((item) => item.classList.add('reveal-ready'));
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('is-revealed');
+      observer.unobserve(entry.target);
+    });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+  revealItems.forEach((item) => revealObserver.observe(item));
+}
+
+if (!document.querySelector('.mobile-booking-bar') && !document.querySelector('.error-page')) {
+  const mobileBookingBar = document.createElement('div');
+  mobileBookingBar.className = 'mobile-booking-bar';
+  mobileBookingBar.innerHTML = '<a href="https://kauaidrip.janeapp.com/" target="_blank" rel="noopener noreferrer">Book an appointment</a>';
+  document.body.appendChild(mobileBookingBar);
+}

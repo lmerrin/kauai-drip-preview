@@ -1,6 +1,6 @@
 # Kauaʻi Drip website refresh
 
-This is a static, deployment-ready preview for Kauaʻi Drip. It uses semantic HTML, organized CSS, and minimal JavaScript. Appointments and private intake are routed to Jane. No forms, analytics, advertising trackers, cookies, passwords, API keys, or patient information are included.
+This is a static, deployment-ready preview for Kauaʻi Drip. It uses semantic HTML, organized CSS, and minimal JavaScript. Appointments and private intake are routed to Jane. No forms, analytics, advertising trackers, cookies, passwords, API keys, or patient information are included. Subtle entrance and scroll effects respect reduced-motion preferences, and a persistent booking action appears on smaller screens.
 
 ## Folder structure
 
@@ -65,6 +65,7 @@ The canonical metadata intentionally uses the final `https://www.kauaidrip.com/`
 - Draft policies: `dist/privacy.html`, `dist/hipaa.html`, `dist/terms.html`, and `dist/medical-disclaimer.html`
 - Design: `dist/assets/css/styles.css`
 - Mobile navigation: `dist/assets/js/script.js`
+- Motion, sticky-header behavior, and the mobile booking action: `dist/assets/css/styles.css` and `dist/assets/js/script.js`
 - SEO files: `dist/robots.txt` and `dist/sitemap.xml`
 - Cloudflare security headers: `dist/_headers`
 

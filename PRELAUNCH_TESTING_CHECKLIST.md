@@ -40,6 +40,8 @@
 - [ ] Confirm all meaningful images have accurate alt text and decorative graphics remain hidden from assistive technology.
 - [ ] Test at 200% browser zoom without losing content or controls.
 - [ ] Confirm reduced-motion preferences are respected.
+- [ ] Confirm the mobile booking bar remains visible without covering page content or the final footer links.
+- [ ] Confirm reveal effects run once, do not hide content when JavaScript is unavailable, and remain subtle on slower devices.
 
 ## SEO and technical
 
